@@ -54,9 +54,9 @@ def execute_command(text):
         subprocess.Popen(["systemctl", "reboot"])
     elif "apagar" in text:
         subprocess.Popen(["systemctl", "poweroff"])
-    elif "escanear" in text:
+    elif "aceptar" in text:
         subprocess.run(["xdotool", "key", "ctrl+s"])
-    elif "guardar" in text:
+    elif "confirmar" in text:
         subprocess.run(["xdotool", "key", "Return"])
     elif "salir" in text:
         print("Saliendo...")

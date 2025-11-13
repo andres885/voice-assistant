@@ -81,8 +81,8 @@ Example commands supported:
 - “cerrar sesión”
 - “reiniciar”
 - “apagar”
-- “escanear” → simula `Ctrl+S`
-- “guardar” → simula `Return`
+- “aceptar” → simula `Ctrl+S`
+- “confirmar” → simula `Return`
 - “salir” → termina el asistente
 
 ---
