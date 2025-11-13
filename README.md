@@ -1,7 +1,6 @@
 # Whisper Offline Voice Assistant
 
-Offline voice assistant for Linux using **Whisper.cpp** with **CUDA acceleration**.  
-This project provides fully offline speech recognition and voice-controlled command execution through KDE utilities such as `xdotool` and `qdbus`.
+Offline voice assistant for Linux using **Whisper.cpp** with **CUDA acceleration**. This project provides fully offline speech recognition and voice-controlled command execution through KDE utilities such as `xdotool` and `qdbus`.
 
 ---
 
@@ -64,13 +63,11 @@ bash ./models/download-ggml-model.sh medium
 
 ## 🧠 How It Works
 
-The assistant continuously records short 5-second audio blocks using the system microphone,  
-transcribes them through `whisper-cli` (CUDA backend), and executes KDE commands according to recognized phrases.
+The assistant continuously records short 5-second audio blocks using the system microphone, transcribes them through `whisper-cli` (CUDA backend), and executes KDE commands according to recognized phrases.
 
 All audio processing happens **in memory** — only short-lived temporary files are used for Whisper.cpp input and are deleted immediately after processing.
 
-The available commands are **easily configurable** inside the Python script (`assistant.py`).  
-You can add or modify any phrase–action pair to launch programs, simulate key presses, or control system functions.
+The available commands are **easily configurable** inside the Python script (`assistant.py`). You can add or modify any phrase–action pair to launch programs, simulate key presses, or control system functions.
 
 Example commands supported:
 - “abrir firefox”
@@ -107,8 +104,7 @@ This project includes two main components under different licenses:
 Originally developed by **Georgi Gerganov**, licensed under the [MIT License](https://github.com/ggerganov/whisper.cpp/blob/master/LICENSE).
 
 ### 2. Voice Assistant Code (this repository)
-All original Python and integration code — including the voice assistant logic, command automation, and configuration —  
-is © 2025 **X Software** and released under the **GNU General Public License v3 (GPLv3)**.
+All original Python and integration code — including the voice assistant logic, command automation, and configuration — is © 2025 **X Software** and released under the **GNU General Public License v3 (GPLv3)**.
 
 You are free to use, modify, and redistribute the software provided that:
 - Any distributed version of your modifications must also be licensed under **GPLv3**.
