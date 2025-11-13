@@ -69,6 +69,9 @@ transcribes them through `whisper-cli` (CUDA backend), and executes KDE commands
 
 All audio processing happens **in memory** — only short-lived temporary files are used for Whisper.cpp input and are deleted immediately after processing.
 
+The available commands are **easily configurable** inside the Python script (`assistant.py`).  
+You can add or modify any phrase–action pair to launch programs, simulate key presses, or control system functions.
+
 Example commands supported:
 - “abrir firefox”
 - “abrir dolphin”
