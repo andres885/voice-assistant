@@ -108,12 +108,12 @@ Originally developed by **Georgi Gerganov**, licensed under the [MIT License](ht
 
 ### 2. Voice Assistant Code (this repository)
 All original Python and integration code — including the voice assistant logic, command automation, and configuration —  
-is © 2025 **X Software** and released under the **MIT License**.
+is © 2025 **X Software** and released under the **GNU General Public License v3 (GPLv3)**.
 
 You are free to use, modify, and redistribute the software provided that:
+- Any distributed version of your modifications must also be licensed under **GPLv3**.
 - Attribution to **X Software** is maintained.
-- The license text is included with any distributed version.
-- Whisper.cpp retains its original author and license notice.
+- Whisper.cpp retains its original author and MIT license notice.
 
 ---
 
