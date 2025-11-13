@@ -101,10 +101,19 @@ Example commands supported:
 
 ## 🧾 License
 
-Based on [Whisper.cpp](https://github.com/ggerganov/whisper.cpp) by Georgi Gerganov,  
-licensed under the MIT License.
+This project includes two main components under different licenses:
 
-All additional code (voice assistant logic and automation) by **X Software**.
+### 1. Whisper.cpp
+Originally developed by **Georgi Gerganov**, licensed under the [MIT License](https://github.com/ggerganov/whisper.cpp/blob/master/LICENSE).
+
+### 2. Voice Assistant Code (this repository)
+All original Python and integration code — including the voice assistant logic, command automation, and configuration —  
+is © 2025 **X Software** and released under the **MIT License**.
+
+You are free to use, modify, and redistribute the software provided that:
+- Attribution to **X Software** is maintained.
+- The license text is included with any distributed version.
+- Whisper.cpp retains its original author and license notice.
 
 ---
 
