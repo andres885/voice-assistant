@@ -119,5 +119,6 @@ You are free to use, modify, and redistribute the software provided that:
 
 ## 🧑‍💻 Author
 
-Developed by **X Software**  
+Developed by [**X Software**](https://xsoftware.es)  
 Linux software development, web solutions, and system automation.
+
